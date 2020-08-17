@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  -webkit-margin: Border-Box;
+  -moz-margin: Border-Box;
+  -ms-margin: Border-Box;
+  -o-margin: Border-Box;
+  margin: Border-Box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.contenedor{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  height: 240px;
+  background: url('../img/fondoextra.jpg') no-repeat  #000000;
+  background-position: center;
+  max-height: 600px;
+}
+
+
+header .menu{
+  margin: 20px 0;
+  text-align: right;
+}
+
+header .menu a {
+  margin: 0 20px;
+  color: #fff;
+  padding-bottom: 9px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1em
+}
+
+header .menu a:hover {
+  /*border-bottom: : 2px solid #fff;*/
+  text-decoration: underline;
+}
+
+
+
+.main .contenedor-trabajos .trabajo .thumb{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main .contenedor-trabajos .trabajo .thumb img:hover{
+  border: 2px solid rgb(0, 0, 0) ;
+}
+
+.main .contenedor-trabajos .thumb img {
+  width: 100%;
+	vertical-align: top;
+	border-radius: 4px;
+}
